@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.malinda.matchy_v_10.MainActivity"
+    android:paddingTop="10dp"
+    android:background="#e0e0e0">
+
+    <ImageButton
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/settings"
+        android:layout_marginBottom="15dp"
+        android:scaleType="center" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:hint="YOUR TEXT"
+            android:textSize="24dp"
+            android:textColorHint="#323433"
+            android:textColor="#323433"
+            android:background="#e0e0e0"
+            android:textAlignment="center" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#3d8986" >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="24dp"
+            android:textColor="#e0e0e0"
+            android:textColorHint="#e0e0e0"
+            android:hint="REGEX PATTERN"
+            android:background="#3d8986"
+            android:textAlignment="center" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#323433" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:hint="MATCHED TEXT"
+            android:textColor="#fbba2c"
+            android:textColorHint="#fbba2c"
+            android:textSize="24dp"
+            android:background="#323433"
+            android:textAlignment="center" />
+    </RelativeLayout>
+
+
+</LinearLayout>
